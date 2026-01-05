@@ -70,11 +70,7 @@ Proyek ini memanfaatkan tools berikut:
 
 ---
 
-## 🧮 SQL Query: Pembuatan Master Table
-
-Query SQL digunakan untuk membentuk satu tabel master yang berisi informasi:
-customer, produk, kategori, quantity, dan total sales, serta diurutkan
-berdasarkan tanggal transaksi dari yang paling awal hingga paling akhir.
+## SQL Query: Pembuatan Master Table
 
 Query SQL berikut digunakan untuk membentuk **tabel master transaksi penjualan**
 yang menggabungkan data dari tabel `orders`, `customers`, `products`,
@@ -94,6 +90,7 @@ SELECT
   (o.Quantity * p.Price) AS total_sales,
   c.CustomerEmail AS cust_email,
   c.CustomerCity AS cust_city
+
 FROM
   `bank_muamalat.orders` AS o
 LEFT JOIN
@@ -105,6 +102,7 @@ LEFT JOIN
 LEFT JOIN
   `bank_muamalat.product_category` AS cat
   ON p.Category = cat.CategoryID
+
 ORDER BY
   order_date ASC;
 ```
@@ -124,15 +122,14 @@ Dashboard menampilkan analisis kinerja penjualan PT Sejahtera Bersama periode
 [**https://lookerstudio.google.com/reporting/d6dc65fb-dc4a-4785-9cc8-a8ae411e5c40**](https://lookerstudio.google.com/reporting/d6dc65fb-dc4a-4785-9cc8-a8ae411e5c40)
 
 ![Image](https://github.com/user-attachments/assets/345eab10-ef54-458b-bcda-84ec1ab85ede)
+
 ---
 
 # 💡 Business Insights & Rekomendasi
 
 Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulkan:
 
----
-
-## 📊 Temuan Utama (Key Findings)
+## Temuan Utama (Key Findings)
 
 - **Total Performa**  
   Total penjualan mencapai **$1,754,751** dengan total item terjual sebanyak **11,654 item**.
@@ -146,9 +143,7 @@ Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulk
 - **Analisis Wilayah**  
   Penjualan tertinggi terkonsentrasi di kota **Washington** ($55,381) dan **Houston** ($33,761), sementara wilayah lain relatif merata.
 
----
-
-## 🚀 Rekomendasi Bisnis (Actionable Insights)
+## Rekomendasi Bisnis (Actionable Insights)
 
 1. **Fokus pada Kota Top Tier**  
    Tingkatkan *marketing campaign* lokal di **top 5 kota** (seperti Washington & Houston) untuk menjaga loyalitas pelanggan yang sudah tinggi.
@@ -159,9 +154,7 @@ Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulk
 3. **Customer Retention**  
    Manfaatkan data `CustomerEmail` untuk mengirimkan *newsletter* atau diskon khusus *"We Miss You"* kepada pelanggan yang sudah lama tidak bertransaksi untuk meningkatkan *retention rate*.
 
-
 ---
-
 
 ## Kesimpulan Utama
 
@@ -169,6 +162,3 @@ Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulk
 2. Beberapa kategori memiliki volume penjualan tinggi namun nilai sales rendah.  
 3. Strategi bundling produk berpotensi meningkatkan performa kategori dengan sales rendah.  
 4. Program retensi pelanggan berbasis histori transaksi dapat meningkatkan loyalitas customer.
-
----
-
