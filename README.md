@@ -11,8 +11,6 @@ Proyek ini berfokus pada pengolahan data penjualan menggunakan **Google BigQuery
 
 Program Virtual Internship Experience Bank Muamalat merupakan program pembelajaran berbasis proyek yang dirancang untuk mengasah kemampuan peserta dalam bidang **Business Intelligence dan Data Analytics**, meliputi data preparation, SQL analysis, business insight, dan data visualization.
 
----
-
 ## 🎯 Tantangan Proyek (Project Challenge)
 
 Tugas utama dalam proyek ini meliputi:
@@ -22,8 +20,6 @@ Tugas utama dalam proyek ini meliputi:
 3. Membuat **master table** yang berisi data transaksi terintegrasi  
 4. Membuat **dashboard visualisasi penjualan**  
 5. Memberikan **rekomendasi bisnis** berdasarkan hasil analisis data  
-
----
 
 ## 🛠 Tools yang Digunakan
 
@@ -40,8 +36,6 @@ Proyek ini memanfaatkan tools berikut:
   Digunakan sebagai repositori penyimpanan query SQL, dataset hasil olahan,
   dan dokumentasi proyek.
 
----
-
 ## 🔄 Alur Kerja Proyek (Workflow)
 
 1. **Import Dataset**  
@@ -57,8 +51,6 @@ Proyek ini memanfaatkan tools berikut:
 
 4. **Visualisasi Data**  
    Data CSV digunakan sebagai sumber data untuk dashboard di Google Looker Studio.
-
----
 
 ## 📝 SQL Query: Pembuatan Master Table
 
@@ -93,8 +85,6 @@ ORDER BY
   order_date ASC;
 ```
 
----
-
 ## 📊 Hasil Dashboard dan Temuan Utama
 
 Dashboard menampilkan analisis kinerja penjualan PT Sejahtera Bersama periode
@@ -123,13 +113,10 @@ Dashboard menampilkan analisis kinerja penjualan PT Sejahtera Bersama periode
 - **Analisis Wilayah**  
   Penjualan tertinggi terkonsentrasi di kota **Washington** ($55,381) dan **Houston** ($33,761), sementara wilayah lain relatif merata.
 
----
 
-# 💡 Rekomendasi
+# 💡 Rekomendasi Bisnis (Actionable Insights)
 
 Berdasarkan analisis data, berikut adalah strategi yang diusulkan:
-
-## Rekomendasi Bisnis (Actionable Insights)
 
 1. **Fokus pada Kota Top Tier**  
    Tingkatkan *marketing campaign* lokal di **top 5 kota** (seperti Washington & Houston) untuk menjaga loyalitas pelanggan yang sudah tinggi.
@@ -140,7 +127,6 @@ Berdasarkan analisis data, berikut adalah strategi yang diusulkan:
 3. **Customer Retention**  
    Manfaatkan data `CustomerEmail` untuk mengirimkan *newsletter* atau diskon khusus kepada pelanggan yang sudah lama tidak bertransaksi untuk meningkatkan *retention rate*.
 
----
 
 ## 📑 Kesimpulan Utama
 
