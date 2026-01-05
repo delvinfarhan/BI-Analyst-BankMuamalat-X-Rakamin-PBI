@@ -1,4 +1,4 @@
-# Big Data Analytics – Bank Muamalat x Rakamin Academy
+# Business Intelligence Analyst – Bank Muamalat x Rakamin Academy
 # Analisis Kinerja Bisnis PT Sejahtera Bersama (2020–2021)
 
 Repository ini berisi hasil pengerjaan **Final Task Virtual Internship Experience** sebagai **Business Intelligence Analyst** pada program kolaborasi **Rakamin Academy x Bank Muamalat**.
