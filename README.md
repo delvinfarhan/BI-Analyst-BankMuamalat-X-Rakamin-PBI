@@ -1,25 +1,15 @@
 # Big Data Analytics – Bank Muamalat x Rakamin Academy
 # Analisis Kinerja Bisnis PT Sejahtera Bersama (2020–2021)
 
-Repository ini berisi hasil pengerjaan **Final Task Virtual Internship Experience**
-sebagai **Business Intelligence Analyst** pada program kolaborasi
-**Rakamin Academy x Bank Muamalat**.
+Repository ini berisi hasil pengerjaan **Final Task Virtual Internship Experience** sebagai **Business Intelligence Analyst** pada program kolaborasi **Rakamin Academy x Bank Muamalat**.
 
-Proyek ini berfokus pada pengolahan data penjualan menggunakan **Google BigQuery**
-dan penyajian insight bisnis melalui **dashboard interaktif Google Looker Studio**
-untuk membantu pengambilan keputusan berbasis data.
+Proyek ini berfokus pada pengolahan data penjualan menggunakan **Google BigQuery** dan penyajian insight bisnis melalui **dashboard interaktif Google Looker Studio** untuk membantu pengambilan keputusan berbasis data.
 
 ---
 
-## 📌 Tentang Program
+## 📖 Tentang Program
 
-Program Virtual Internship Experience Bank Muamalat merupakan program pembelajaran
-berbasis proyek yang dirancang untuk mengasah kemampuan peserta dalam bidang
-**Business Intelligence dan Data Analytics**, khususnya pada aspek:
-- Data preparation
-- SQL analysis
-- Business insight
-- Data visualization
+Program Virtual Internship Experience Bank Muamalat merupakan program pembelajaran berbasis proyek yang dirancang untuk mengasah kemampuan peserta dalam bidang **Business Intelligence dan Data Analytics**, meliputi data preparation, SQL analysis, business insight, dan data visualization.
 
 ---
 
@@ -70,15 +60,11 @@ Proyek ini memanfaatkan tools berikut:
 
 ---
 
-## SQL Query: Pembuatan Master Table
+## 📝 SQL Query: Pembuatan Master Table
 
-Query SQL berikut digunakan untuk membentuk **tabel master transaksi penjualan**
-yang menggabungkan data dari tabel `orders`, `customers`, `products`,
-dan `product_category`.
+Query SQL berikut digunakan untuk membentuk **tabel master transaksi penjualan** yang menggabungkan data dari tabel `orders`, `customers`, `products`, dan `product_category`.
 
-Tabel ini berisi informasi customer, produk, kategori, quantity,
-dan total penjualan, serta diurutkan berdasarkan tanggal transaksi
-dari yang paling awal hingga paling akhir.
+Tabel ini berisi informasi customer, produk, kategori, quantity, dan total penjualan, serta diurutkan berdasarkan tanggal transaksi dari yang paling awal hingga paling akhir.
 
 ```sql
 SELECT
@@ -123,13 +109,7 @@ Dashboard menampilkan analisis kinerja penjualan PT Sejahtera Bersama periode
 
 ![Image](https://github.com/user-attachments/assets/345eab10-ef54-458b-bcda-84ec1ab85ede)
 
----
-
-# 💡 Business Insights & Rekomendasi
-
-Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulkan:
-
-## Temuan Utama (Key Findings)
+**Temuan Utama (Key Findings)**
 
 - **Total Performa**  
   Total penjualan mencapai **$1,754,751** dengan total item terjual sebanyak **11,654 item**.
@@ -143,6 +123,12 @@ Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulk
 - **Analisis Wilayah**  
   Penjualan tertinggi terkonsentrasi di kota **Washington** ($55,381) dan **Houston** ($33,761), sementara wilayah lain relatif merata.
 
+---
+
+# 💡 Rekomendasi
+
+Berdasarkan analisis data, berikut adalah strategi yang diusulkan:
+
 ## Rekomendasi Bisnis (Actionable Insights)
 
 1. **Fokus pada Kota Top Tier**  
@@ -152,11 +138,11 @@ Berdasarkan analisis data, berikut adalah temuan utama dan strategi yang diusulk
    Lakukan *bundling* antara produk terlaris secara kuantitas (**eBooks**) dengan produk bernilai tinggi (**Robot/Drones**) atau produk yang kurang laku untuk meningkatkan rata-rata nilai pesanan.
 
 3. **Customer Retention**  
-   Manfaatkan data `CustomerEmail` untuk mengirimkan *newsletter* atau diskon khusus *"We Miss You"* kepada pelanggan yang sudah lama tidak bertransaksi untuk meningkatkan *retention rate*.
+   Manfaatkan data `CustomerEmail` untuk mengirimkan *newsletter* atau diskon khusus kepada pelanggan yang sudah lama tidak bertransaksi untuk meningkatkan *retention rate*.
 
 ---
 
-## Kesimpulan Utama
+## 📑 Kesimpulan Utama
 
 1. Penjualan terkonsentrasi pada beberapa kota dengan kontribusi terbesar terhadap revenue.  
 2. Beberapa kategori memiliki volume penjualan tinggi namun nilai sales rendah.  
